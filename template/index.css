@@ -1,0 +1,118 @@
+/* 
+======================================
+GLOBAL STYLES 
+======================================
+*/
+
+:root {
+    --color-text-grey: #555;
+    --color-button-primary: #ff523b;
+    --color-white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 7rem;
+}
+
+p {
+    color: var(--color-text-grey);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 
+======================================
+NAVBAR + BANNER STYLES 
+======================================
+*/
+
+.banner-container {
+    margin: inherit;
+    width: 100%;
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+
+/* 
+======================================
+NAVBAR STYLES 
+======================================
+*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: black;
+}
+
+.navbar nav li {
+    padding: 1rem;
+}
+
+.navbar nav li a {
+    text-decoration: none;
+    color: var(--color-text-grey);
+}
+
+
+/* 
+======================================
+BANNER STYLES 
+======================================
+*/
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 50%;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 4rem 0;
+}
+
+.col-2 h1 {
+    font-size: 3rem;
+    line-height: 4.5rem;
+    margin: 2rem 0;
+}
+
+
+/* 
+======================================
+BUTTON STYLES 
+======================================
+*/
+
+.banner-btn {
+    display: inline-block;
+    background-color: var(--color-button-primary);
+    color: var(--color-white);
+    padding: 0.5rem 2rem;
+    margin: 2rem 0;
+    border-radius: 2rem;
+}
