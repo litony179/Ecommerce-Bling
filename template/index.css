@@ -7,6 +7,7 @@ GLOBAL STYLES
 :root {
     --color-text-grey: #555;
     --color-button-primary: #ff523b;
+    --color-button-primary-light: #563434;
     --color-white: #fff;
 }
 
@@ -17,7 +18,7 @@ GLOBAL STYLES
 }
 
 body {
-    margin: 0 7rem;
+    font-family: "poppins", sans-serif;
 }
 
 p {
@@ -35,9 +36,13 @@ NAVBAR + BANNER STYLES
 ======================================
 */
 
-.banner-container {
+.nav-container {
     margin: inherit;
-    width: 100%;
+}
+
+.banner-container {
+    padding: 0 7rem;
+    max-width: 100%;
     background: radial-gradient(#fff, #ffd6d6);
 }
 
@@ -52,12 +57,12 @@ NAVBAR STYLES
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
 }
 
 .navbar nav ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
     list-style: none;
     color: black;
 }
@@ -69,6 +74,10 @@ NAVBAR STYLES
 .navbar nav li a {
     text-decoration: none;
     color: var(--color-text-grey);
+}
+
+.navbar nav li a:hover {
+    text-decoration: underline;
 }
 
 
@@ -83,6 +92,7 @@ BANNER STYLES
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 3rem 0;
 }
 
 .col-2 {
@@ -115,4 +125,9 @@ BUTTON STYLES
     padding: 0.5rem 2rem;
     margin: 2rem 0;
     border-radius: 2rem;
+    transition: all 0.3s;
+}
+
+.banner-btn:hover {
+    background-color: var(--color-button-primary-light);
 }
