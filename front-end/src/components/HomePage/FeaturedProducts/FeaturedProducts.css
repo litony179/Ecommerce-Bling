@@ -1,0 +1,93 @@
+.featuredProducts-container {
+    margin: 0 4rem;
+}
+
+.featuredProducts-title {
+    text-align: center;
+    margin: 0 5rem;
+    position: relative;
+    line-height: 4rem;
+    color: #555;
+}
+
+.featuredProducts-title::after {
+    content: '';
+    background-color: #ff523b;
+    width: 5rem;
+    height: 0.5rem;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.row {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 3rem;
+}
+
+.card {
+    flex-basis: 23%;
+    margin: 0.3rem;
+    box-shadow: 5px 5px 20px rgba(92, 92, 92, 0.1);
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+}
+
+.row.center {
+    justify-content: center;
+}
+
+.card img {
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-body>* {
+    margin-bottom: 0.5rem;
+}
+
+.card-body h4 {
+    font-size: 1.2rem;
+    padding: 0.3rem 0;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #000;
+}
+
+.price {
+    font-size: 1rem;
+}
+
+
+/* 
+======================================
+CARD HOVER STYLES
+======================================
+ */
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* 
+======================================
+RATINGS STYLES
+======================================
+ */
+
+.rating span {
+    color: #ff523b;
+    margin: 0.1rem;
+}

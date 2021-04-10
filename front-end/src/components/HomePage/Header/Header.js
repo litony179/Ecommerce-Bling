@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Header.css';
+import './Header.css';
 
 const header = () => {
     return(
@@ -12,12 +12,13 @@ const header = () => {
                         </div>
                         <nav>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Account</a></li>
-                            <li><a href="#"><img src="images/cart.png" width="30px" height="30px" alt="shopping-cart"></img></a></li>
+                            <li><a href="/home">Home</a></li>
+                            <li><a href="/products">Products</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                            <li><a href="/account">Account</a></li>
+                            <li><a href="/cart"><img src="images/cart.png" width="30px" height="30px" alt="shopping-cart"></img></a></li>
+                            
                         </ul>
                         </nav>
                     </div>
@@ -26,7 +27,7 @@ const header = () => {
                     <div className="col-2">
                         <h1>Give your workout <br></br>a new style!</h1>
                         <p>Success isn't always about greatness. It's about consistency. consistent <br></br> hard work gains sucess. Greatness will follow!</p>
-                        <a className="btn" href="">Explore now</a>
+                        <a className="btn" href="/products">Explore now</a>
                     </div>
                     <div class="col-2">
                         <img src="images/image1.png" alt="banner-pic"></img>
