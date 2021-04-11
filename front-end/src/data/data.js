@@ -91,7 +91,30 @@ const data = {
             numReviews: 10,
             description: 'High Quality Product',
         },
+    ],
 
+    TestimonialsInfo:[
+        {
+            _id: 'F1',
+            name: 'Sarah Parker',
+            image: './images/user-1.png',
+            message: "I had a really nice shopping experience with RedStore!",
+            rating: 3.5,
+        },
+        {
+            _id: 'F2',
+            name: 'Tony Li',
+            image: './images/user-2.png',
+            message: "Great customer experience and the staff were very friendly!",
+            rating: 4.5,
+        },
+        {
+            _id: 'F3',
+            name: 'Emma Genner',
+            image: './images/user-3.png',
+            message: "Will definately come back to shop! the proucts are high in quality!",
+            rating: 4,
+        }
     ]
 }
 

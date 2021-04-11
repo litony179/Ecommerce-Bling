@@ -12,7 +12,7 @@ const offer = () => {
                     <p>Exclusively Available on RedStore</p>
                     <h1>Smart Band 4</h1>
                     <small>The Xiao Mi smart band 4 features a  39.9% larger (than Xiao Mi Band 3) AMOLED color full-touch display with adjustible brightness, so everything is as clear as it can be.</small>
-                    <a className="btn" href="">Buy now</a>
+                    <a className="btn offer-btn" href="">Buy now</a>
                 </div>
             </div>
         </div>
