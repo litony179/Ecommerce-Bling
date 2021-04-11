@@ -1,0 +1,13 @@
+.offer {
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: 5rem;
+    padding: 1.8rem
+}
+
+.col-2 .offer-img {
+    padding: 3rem;
+}
+
+.col-2 small {
+    color: #555;
+}
