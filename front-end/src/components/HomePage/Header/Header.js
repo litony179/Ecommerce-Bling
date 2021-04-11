@@ -11,16 +11,17 @@ const header = () => {
                             <img src="./images/logo.png" width="125px" alt="store-logo"></img>
                         </div>
                         <nav>
-                        <ul>
-                            <li><a href="/home">Home</a></li>
-                            <li><a href="/products">Products</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/contact">Contact</a></li>
-                            <li><a href="/account">Account</a></li>
-                            <li><a href="/cart"><img src="./images/cart.png" width="30px" height="30px" alt="shopping-cart"></img></a></li>
-                            
-                        </ul>
+                            <ul>
+                                <li><a href="/home">Home</a></li>
+                                <li><a href="/products">Products</a></li>
+                                <li><a href="/about">About</a></li>
+                                <li><a href="/contact">Contact</a></li>
+                                <li><a href="/account">Account</a></li>
+                            </ul>
+                            <a href="/cart"><img src="./images/cart.png" width="30px" height="30px" alt="shopping-cart"></img></a>
+                            <a href="/cart"><img src="./images/menu.png" className="menu-icon"></img></a>
                         </nav>
+                        
                     </div>
                 </div>
                 <div className="row">

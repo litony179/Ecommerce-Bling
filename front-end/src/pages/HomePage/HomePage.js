@@ -6,6 +6,9 @@ import FeaturedProducts from '../../components/HomePage/FeaturedProducts/Feature
 import RecentProducts from '../../components/HomePage/RecentProducts/RecentProducts';
 import Advert from '../../components/HomePage/Advert/Advert';
 import Offer from '../../components/HomePage/Offer/offer';
+import Testimonials from '../../components/HomePage/Testimonials/Testimonials';
+import Brands from '../../components/HomePage/Brands/Brands';
+import Footer from '../../components/Utilities/Footer/Footer';
 
 const homePage = () => {
     return(
@@ -16,9 +19,11 @@ const homePage = () => {
             <Advert></Advert>
             <RecentProducts></RecentProducts>
             <Offer></Offer>
+            <Testimonials></Testimonials>
+            <Brands></Brands>
+            <Footer></Footer>
         </div>
     );
-    
 }
 
 export default homePage;
