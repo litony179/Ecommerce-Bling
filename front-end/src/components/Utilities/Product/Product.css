@@ -1,0 +1,64 @@
+/* 
+======================================
+CARD (PRODUCT) STYLES
+======================================
+ */
+
+.row {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 3rem;
+}
+
+.card {
+    flex-basis: 23%;
+    margin: 0.3rem;
+    box-shadow: 5px 5px 20px rgba(92, 92, 92, 0.1);
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    margin-bottom: 1rem;
+}
+
+.row.center {
+    justify-content: center;
+}
+
+.card img {
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-body>* {
+    margin-bottom: 0.5rem;
+}
+
+.card-body h4 {
+    font-size: 1.2rem;
+    padding: 0.3rem 0;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #000;
+}
+
+.price {
+    font-size: 1rem;
+}
+
+
+/* 
+======================================
+CARD HOVER STYLES
+======================================
+ */
+
+.card:hover {
+    transform: translateY(-5px);
+}

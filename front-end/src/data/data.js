@@ -1,7 +1,7 @@
 const data = {
-    products:[
+    featuredProducts:[
         {
-            _id: '1',
+            _id: 'FP1',
             name: 'Red Printed T-Shirt',
             category: 'Shirts',
             image: '/images/product-1.jpg',
@@ -12,7 +12,7 @@ const data = {
             description: 'High Quality Product',
         },
         {
-            _id: '2',
+            _id: 'FP2',
             name: 'Red Classic Runners',
             category: 'Shoes',
             image: '/images/product-2.jpg',
@@ -23,7 +23,7 @@ const data = {
             description: 'High Quality Product',
         },
         {
-            _id: '3',
+            _id: 'FP3',
             name: 'Red Sweat Pants',
             category: 'Pants',
             image: '/images/product-3.jpg',
@@ -34,7 +34,7 @@ const data = {
             description: 'High Quality Product',
         },
         {
-            _id: '4',
+            _id: 'FP4',
             name: 'Blue Printed T-Shirt',
             category: 'Shirts',
             image: '/images/product-4.jpg',
@@ -44,6 +44,54 @@ const data = {
             numReviews: 34,
             description: 'High Quality Product',
         }
+    ],
+
+    recentProducts:[
+        {
+            _id: 'RP1',
+            name: 'Red Printed T-Shirt',
+            category: 'Shirts',
+            image: '/images/product-5.jpg',
+            price: 120.00,
+            brand: 'Nike',
+            rating: 3,
+            numReviews: 10,
+            description: 'High Quality Product',
+        },
+        {
+            _id: 'RP2',
+            name: 'Red Printed T-Shirt',
+            category: 'Shirts',
+            image: '/images/product-6.jpg',
+            price: 120.00,
+            brand: 'Nike',
+            rating: 3.5,
+            numReviews: 10,
+            description: 'High Quality Product',
+        },
+        {
+            _id: 'RP3',
+            name: 'Red Printed T-Shirt',
+            category: 'Shirts',
+            image: '/images/product-7.jpg',
+            price: 120.00,
+            brand: 'Nike',
+            rating: 5,
+            numReviews: 10,
+            description: 'High Quality Product',
+        },
+        {
+            _id: 'RP4',
+            name: 'Red Printed T-Shirt',
+            category: 'Shirts',
+            image: '/images/product-8.jpg',
+            price: 120.00,
+            brand: 'Nike',
+            rating: 1,
+            numReviews: 10,
+            description: 'High Quality Product',
+        },
+
     ]
 }
 

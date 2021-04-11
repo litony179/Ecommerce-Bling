@@ -1,8 +1,8 @@
-.featuredProducts-container {
+.recentProducts-container {
     margin: 0 4rem;
 }
 
-.featuredProducts-title {
+.recentProducts-title {
     text-align: center;
     margin: 0 5rem;
     position: relative;
@@ -10,7 +10,7 @@
     color: #555;
 }
 
-.featuredProducts-title::after {
+.recentProducts-title::after {
     content: '';
     background-color: #ff523b;
     width: 5rem;

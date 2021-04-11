@@ -8,7 +8,7 @@ const header = () => {
                 <div className="nav-container">
                     <div className="navbar"> 
                         <div className="logo">
-                            <img src="images/logo.png" width="125px" alt="store-logo"></img>
+                            <img src="./images/logo.png" width="125px" alt="store-logo"></img>
                         </div>
                         <nav>
                         <ul>
@@ -17,7 +17,7 @@ const header = () => {
                             <li><a href="/about">About</a></li>
                             <li><a href="/contact">Contact</a></li>
                             <li><a href="/account">Account</a></li>
-                            <li><a href="/cart"><img src="images/cart.png" width="30px" height="30px" alt="shopping-cart"></img></a></li>
+                            <li><a href="/cart"><img src="./images/cart.png" width="30px" height="30px" alt="shopping-cart"></img></a></li>
                             
                         </ul>
                         </nav>
@@ -30,7 +30,7 @@ const header = () => {
                         <a className="btn" href="/products">Explore now</a>
                     </div>
                     <div class="col-2">
-                        <img src="images/image1.png" alt="banner-pic"></img>
+                        <img src="./images/image1.png" alt="banner-pic"></img>
                     </div>
                 </div>
             </div>
