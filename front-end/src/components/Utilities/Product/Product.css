@@ -1,6 +1,6 @@
 /* 
 ======================================
-CARD (PRODUCT) STYLES
+homePage-card (PRODUCT) STYLES
 ======================================
  */
 
@@ -12,7 +12,7 @@ CARD (PRODUCT) STYLES
     padding-top: 3rem;
 }
 
-.card {
+.homePage-card {
     flex-basis: 23%;
     margin: 0.3rem;
     box-shadow: 5px 5px 20px rgba(92, 92, 92, 0.1);
@@ -25,25 +25,27 @@ CARD (PRODUCT) STYLES
     justify-content: center;
 }
 
-.card img {
+.homePage-card img {
     border-radius: 0.5rem;
     width: 100%;
 }
 
-.card-body {
+.homePage-card-body {
     padding: 1rem;
 }
 
-.card-body>* {
+.homePage-card-body>* {
     margin-bottom: 0.5rem;
 }
 
-.card-body h4 {
+.homePage-card-body h4 {
+    display: flex;
     font-size: 1.2rem;
-    padding: 0.3rem 0;
+    height: 5rem;
+    align-items: center;
 }
 
-.card-body a {
+.homePage-card-body a {
     text-decoration: none;
     color: #000;
 }
@@ -55,10 +57,34 @@ CARD (PRODUCT) STYLES
 
 /* 
 ======================================
-CARD HOVER STYLES
+homePage-card HOVER STYLES
 ======================================
  */
 
-.card:hover {
+.homePage-card:hover {
     transform: translateY(-5px);
+}
+
+
+/* 
+======================================
+homePage-card RESPONSIVE STYLES
+======================================
+ */
+
+@media screen and (max-width: 860px) {
+    .homePage-card {
+        flex-basis: 44%;
+    }
+    .homePage-card-body h4 {
+        height: 5rem;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .homePage-card {
+        display: block;
+        flex-basis: 100%;
+    }
 }

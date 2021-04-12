@@ -17,7 +17,7 @@ function Categories() {
                 <div className="categories">
                     <div className="categories-wrapper">
                         <div className="row">
-                            <div className="col-3">
+                            <div className="category-cards">
                                 <div className="hover-container">
                                     <div className="image-container hover">
                                         <img onMouseEnter={() => setCategoryClothesShown(true)} onMouseLeave={() => setCategoryClothesShown(false)} src="images/category-1.jpg" alt="category-pic"></img>
@@ -34,7 +34,7 @@ function Categories() {
                                     <h1>Our Clothes <br></br> Collection</h1>
                                 </div> 
                             </div>
-                            <div className="col-3">
+                            <div className="category-cards">
                                 <div className="hover-container">
                                     <div className="image-container hover">
                                         <img onMouseEnter={() => setCategoryShoesShown(true)} onMouseLeave={() => setCategoryShoesShown(false)} src="images/category-2.jpg" alt="category-pic"></img>
@@ -52,7 +52,7 @@ function Categories() {
                                 </div> 
                                 
                             </div>
-                            <div className="col-3">
+                            <div className="category-cards">
                                 <div className="hover-container">
                                     <div className="image-container hover">
                                         <img onMouseEnter={() => setCategoryAccessoriesShown(true)} onMouseLeave={() => setCategoryAccessoriesShown(false)} src="images/category-3.jpg" alt="category-pic"></img>

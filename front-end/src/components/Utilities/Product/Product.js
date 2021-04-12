@@ -5,11 +5,11 @@ import './Product.css';
 const product = (props) => {
     const {product} = props;
     return(
-        <div key={product._id} className="card">
+        <div key={product._id} className="homePage-card">
             <a href={`/product/${product._id}`}>
                 <img className="medium" src={product.image} alt={product.name}></img>
             </a>
-            <div className="card-body">
+            <div className="homePage-card-body">
                 <a href={`/product/${product._id}`}>
                     <h4>{product.name}</h4>
                 </a>

@@ -114,6 +114,13 @@ const data = {
             image: './images/user-3.png',
             message: "Will definately come back to shop! the proucts are high in quality!",
             rating: 4,
+        },
+        {
+            _id: 'F4',
+            name: 'Katey Ngyuen',
+            image: './images/user-3.png',
+            message: "Great service and friendly staff",
+            rating: 4,
         }
     ]
 }

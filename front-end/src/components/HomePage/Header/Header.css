@@ -17,46 +17,6 @@
 
 /* 
 ======================================
-(HOMEPAGE) NAVBAR STYLES 
-======================================
-*/
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar nav ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
-    color: black;
-}
-
-.navbar nav li {
-    padding: 1rem;
-}
-
-.navbar nav li a {
-    text-decoration: none;
-    color: var(--color-text-grey);
-}
-
-.navbar nav li a:hover {
-    text-decoration: underline;
-}
-
-
-/* 
-======================================
 (HOMEPAGE) BANNER STYLES 
 ======================================
 */
@@ -95,6 +55,7 @@
 .menu-icon {
     width: 2rem;
     margin-left: 1rem;
+    display: none;
 }
 
 
@@ -107,15 +68,31 @@
 @media only screen and (max-width: 800px) {
     .navbar nav ul {
         position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
         top: 4.4rem;
         left: 0;
         background: #333;
-        width: 50%;
+        width: 100%;
     }
     .navbar nav li {
-        display: block;
         margin-right: 3.2rem;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+    }
+    .navbar nav li a {
+        color: #fff;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .row {
+        text-align: center;
+    }
+    .col-2 {
+        flex-basis: 100%;
     }
 }
