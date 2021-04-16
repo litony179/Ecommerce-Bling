@@ -8,7 +8,7 @@ function NavBar() {
         <div className="nav-container">
             <nav>
                 <div className="logo">
-                    <img src="./images/logo.png" width="125px" alt="store-logo"></img>
+                    <img src="/images/logo.png" width="125px" alt="store-logo"></img>
                 </div>
                 <ul className="nav-links" style={{transform: openNavToggle ? "translateX(0)" : ""}}>
                     <div onClick={() => setOpenNavToggle(!openNavToggle)}>

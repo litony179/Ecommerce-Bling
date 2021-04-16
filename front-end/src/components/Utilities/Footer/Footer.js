@@ -10,12 +10,12 @@ const footer = () => {
                         <h3>Download Our App</h3>
                         <p>Download our app for Android and IOS mobile phone</p>
                         <div className="app-logo">
-                            <img src="./images/play-store.png" alt="play-store-pic" />
-                            <img src="./images/app-store.png" alt="app-store-pic" />
+                            <img src="/images/play-store.png" alt="play-store-pic" />
+                            <img src="/images/app-store.png" alt="app-store-pic" />
                         </div>
                     </div>
                     <div className="footer-col-2">
-                        <img src="./images/logo-white.png" alt="store-logo"/>
+                        <img src="/images/logo-white.png" alt="store-logo"/>
                         <p>Our purpose is to sustainability make the pleasure and benifits of sports accessible to the masses</p>
                     </div>
                     <div className="footer-col-3">
