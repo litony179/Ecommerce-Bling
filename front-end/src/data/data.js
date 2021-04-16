@@ -93,6 +93,53 @@ const data = {
         },
     ],
 
+    recommendedProducts:[
+        {
+            _id: 'RMP1',
+            name: 'Red Printed T-Shirt',
+            category: 'Shirts',
+            image: '/images/product-9.jpg',
+            price: 120.00,
+            brand: 'Nike',
+            rating: 3,
+            numReviews: 10,
+            description: 'High Quality Product',
+        },
+        {
+            _id: 'RMP2',
+            name: 'Red Printed T-Shirt',
+            category: 'Shirts',
+            image: '/images/product-10.jpg',
+            price: 120.00,
+            brand: 'Nike',
+            rating: 3.5,
+            numReviews: 10,
+            description: 'High Quality Product',
+        },
+        {
+            _id: 'RMP3',
+            name: 'Red Printed T-Shirt',
+            category: 'Shirts',
+            image: '/images/product-11.jpg',
+            price: 120.00,
+            brand: 'Nike',
+            rating: 5,
+            numReviews: 10,
+            description: 'High Quality Product',
+        },
+        {
+            _id: 'RMP4',
+            name: 'Red Printed T-Shirt',
+            category: 'Shirts',
+            image: '/images/product-12.jpg',
+            price: 120.00,
+            brand: 'Nike',
+            rating: 1,
+            numReviews: 10,
+            description: 'High Quality Product',
+        },
+    ],
+
     TestimonialsInfo:[
         {
             _id: 'F1',

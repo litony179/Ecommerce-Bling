@@ -11,6 +11,7 @@ RATINGS STYLES
 }
 
 .rating span:last-child {
+    display: block;
     color: #555;
     padding-right: 0.1rem;
 }
