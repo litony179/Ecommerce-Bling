@@ -10,6 +10,7 @@ const data = {
             rating: 4.5,
             numReviews: 10,
             description: 'High Quality Product',
+            details: "Give your summer wardrobe a style upgrade with the HRX Men's Active T-shirt. Couple it with a pair of active shorts for your morining workout or denims for an evening out with the guys."
         },
         {
             _id: 'FP2',
