@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Ratings from '../../Utilities/Ratings/Ratings';
 import './SingleProductDetails.css'
 
 function SingleProductDetails(props) {
@@ -38,6 +39,12 @@ function SingleProductDetails(props) {
                 <div className="col-2">
                     <h1>{details.name}</h1>
                     <h4>${details.price}</h4>
+                    <div>
+                        {details.inventory > 0 ? <span className="success">In Stock</span> : <span className="error">Out of Stock</span>}
+                    </div>
+                    <div className="ratings">
+                        <Ratings rating={details.rating} numReviews={details.numReviews}></Ratings>
+                    </div>
                     <select name="sizes">
                         <option disabled selected>Select Size</option>
                         <option>XXL</option>

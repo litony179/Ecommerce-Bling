@@ -26,10 +26,11 @@ nav .nav-links {
     justify-content: space-between;
     align-items: center;
     width: 35%;
+    transition: all 0.3s
 }
 
 nav .nav-links li:not(:last-child):hover {
-    border-bottom: 1px solid #555;
+    font-weight: 600;
 }
 
 nav .nav-links a {
@@ -52,6 +53,18 @@ nav .bars-icon {
 
 nav .close-icon {
     display: none;
+}
+
+
+/* 
+======================================
+SIGNUP/SIGNIN BUTTON STYLES 
+======================================
+*/
+
+.signup-btn {
+    padding: 0.2rem 0.8rem;
+    color: #fff !important;
 }
 
 

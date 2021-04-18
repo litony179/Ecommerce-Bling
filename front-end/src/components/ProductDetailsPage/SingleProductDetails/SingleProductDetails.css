@@ -116,6 +116,20 @@ PRODUCT DESCRIPTION IMAGES STYLES
     cursor: pointer;
 }
 
+.ratings {
+    margin: 2rem 0;
+}
+
+.success {
+    color: #81b214;
+    font-weight: 600;
+}
+
+.error {
+    color: #f05945;
+    font-weight: 600;
+}
+
 @media screen and (max-width: 750px) {
     .singleProductDetails-container select {
         margin: auto;

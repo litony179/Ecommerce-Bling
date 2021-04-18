@@ -20,8 +20,12 @@ function NavBar() {
                     <li><a href="/about">About</a></li>
                     <li><a href="/contact">Contact</a></li>
                     <li><a href="/account">Account</a></li>
+                    <li><a className="btn signup-btn" href="/signup">Sign Up</a></li>
                     <li><a className="shopping-cart" href="/cart"><i className="fas fa-shopping-cart"></i></a></li>
+                    
                 </ul>
+                
+                
                 
                 <i onClick={() => setOpenNavToggle(!openNavToggle)} className="bars-icon fas fa-bars"></i>
             </nav>

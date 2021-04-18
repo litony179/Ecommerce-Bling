@@ -4,7 +4,7 @@ import './ProductFilter.css'
 const productFilter = () => {
     return(
         <div className="productFilter-container">
-            <h3>All Products</h3>
+            <h2>All Products</h2>
             <select>
                 <option disabled selected>Categories</option>
             </select>
