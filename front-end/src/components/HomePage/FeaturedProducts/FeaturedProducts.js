@@ -10,7 +10,7 @@ class featuredProducts extends Component {
                 <h2 className="featuredProducts-title">Featured Products</h2>
                 <div className="row center">
                     {
-                        featuredProductData.featuredProducts.map((product) => (
+                        featuredProductData.products.map((product) => (
                             <Product key={product._id} product={product}></Product>
                         ))
                     }

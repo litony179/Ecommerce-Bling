@@ -1,0 +1,5 @@
+.productFilter-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem 15rem;
+}
