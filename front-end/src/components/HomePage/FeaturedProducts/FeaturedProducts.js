@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./FeaturedProducts.css";
 import Product from "../../Utilities/Product/Product";
-import MessageBox from "../MessageBox/MessageBox";
-import LoadingBox from "../LoadingBox/LoadingBox";
+import MessageBox from "../../Utilities/LoadingBox/LoadingBox";
+import LoadingBox from "../../Utilities/MessageBox/MessageBox";
 
 function FeaturedProducts() {
   const [products, setProducts] = useState([]);
